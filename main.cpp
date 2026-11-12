@@ -6,9 +6,6 @@
 using namespace std::chrono;
 
 int main() {
-
-    // loop constantly and output x and y axis data of simulated mechanical arm over UDP.
-    // Phase 1 is simple up, remain for 5 seconds, down, remain for 5 seconds and loop
     double x = 0;
     double y = 0;
     constexpr double maxY = 10.000;
